@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/rythm.js/2.1.0/rythm.min.js"></script>
+		<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/estilo.css">
+		<script src="js/playerRitmo.js"></script>
+	</head>
+	<body>
+		<div id="ritmo1" class="wok">
+			<div id="contMusica">
+				<div class="rythm-bass" id="nomeMusica">Nenhuma música selecionada</div>
+			</div>
+		</div>
+
+		<div id="barBottomFundo" class="wok">
+			<div id="barBottom">
+				<button type="button" class="btnW" name="button" id="btnPlay">
+					<i id="icon" class="fa fa-play" aria-hidden="true"></i>
+					<span id="label">PLAY</span>
+				</button>
+				<button type="button" id="btnCarregarAudio" class="btnW">Escolher música</button>
+				<input type="file" id="fileCarregarAudio" accept="audio/*">
+			</div>
+		</div>
+	</body>
+</html>

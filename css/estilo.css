@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+#ritmo1{
+	height: calc(100vh - 50px);
+	width: 100%;
+	padding-top: 40vh;
+	background: #a149a0;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+#contMusica{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+#nomeMusica{
+	width: 662px;
+	margin: auto;
+	font-size: 40px;
+}
+#barBottomFundo{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+#barBottom{
+	height: 100%;
+	background: rgba(141, 0, 255, 0.32);
+	padding: 10px 10px;
+}
+#fileCarregarAudio{
+	display: none;
+}
+.btnW{
+	background: rgb(141, 0, 255);
+	border: none;
+	height: 100%;
+	cursor: pointer;
+}
