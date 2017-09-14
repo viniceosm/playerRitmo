@@ -1,6 +1,7 @@
+var rythm = new Rythm();
+
 window.addEventListener('load', ()=>{
 
-	var rythm = new Rythm();
 	rythm.addRythm('wok', 'color', 0, 10, {
 		from: [255,255,0],
 		to:[255,0,0]
