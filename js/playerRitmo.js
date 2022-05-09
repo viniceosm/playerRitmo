@@ -31,6 +31,7 @@ window.addEventListener('load', ()=>{
 function play(){
 	togglePlayStop('#btnPlay');
 	rythm.start();
+	getAudioContext().resume();
 }
 function stop(){
 	togglePlayStop('#btnPlay');
